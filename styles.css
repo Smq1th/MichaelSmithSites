@@ -433,10 +433,11 @@ h3 {
 }
 
 .portfolio-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .project-card {
+  grid-column: span 2;
   min-height: 275px;
   display: flex;
   flex-direction: column;
@@ -796,6 +797,7 @@ textarea:focus {
   }
 
   .project-card {
+    grid-column: auto;
     min-height: 220px;
   }
 
