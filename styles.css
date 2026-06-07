@@ -433,7 +433,7 @@ h3 {
 }
 
 .portfolio-grid {
-  grid-template-columns: 1.2fr repeat(3, minmax(0, 0.8fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .project-card {
@@ -447,6 +447,10 @@ h3 {
   background: var(--deep);
   color: white;
   box-shadow: var(--shadow);
+}
+
+.portfolio-grid .project-card.featured {
+  grid-column: span 2;
 }
 
 .project-card.featured p {
@@ -793,6 +797,10 @@ textarea:focus {
 
   .project-card {
     min-height: 220px;
+  }
+
+  .portfolio-grid .project-card.featured {
+    grid-column: auto;
   }
 }
 

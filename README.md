@@ -1,6 +1,13 @@
 # Michael Smith Sites
 
-Professional static website for `michaelsmithsites.com`.
+Professional static website for `michaelsmithsites.com`, focused on Staten Island website design,
+Staten Island local SEO, and demo concepts for local businesses.
+
+## Recent update
+
+- Added Ten Point Auto Repair to Demo Work.
+- Emphasized Staten Island local businesses throughout the homepage, services, demo work, process, pricing, about, contact, footer, and SEO metadata.
+- Updated the portfolio grid to support multiple featured Staten Island demo projects.
 
 ## Preview locally
 
