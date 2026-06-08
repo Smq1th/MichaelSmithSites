@@ -8,6 +8,7 @@ Staten Island local SEO, and demo concepts for local businesses.
 - Added Ten Point Auto Repair to Demo Work.
 - Added Roy K. Danischewski, CPA to Demo Work.
 - Added Ban-A-Bug Pest Control to Demo Work.
+- Added Clove Lake Dental to Demo Work.
 - Emphasized Staten Island local businesses throughout the homepage, services, demo work, process, pricing, about, contact, footer, and SEO metadata.
 - Updated the portfolio grid to support multiple featured Staten Island demo projects.
 
