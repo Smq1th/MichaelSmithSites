@@ -444,20 +444,6 @@ h3 {
   padding: 26px;
 }
 
-.project-card.featured {
-  background: var(--deep);
-  color: white;
-  box-shadow: var(--shadow);
-}
-
-.portfolio-grid .project-card.featured {
-  grid-column: span 2;
-}
-
-.project-card.featured p {
-  color: rgba(255, 255, 255, 0.78);
-}
-
 .project-type {
   margin-bottom: 24px;
   color: var(--copper);
@@ -801,9 +787,6 @@ textarea:focus {
     min-height: 220px;
   }
 
-  .portfolio-grid .project-card.featured {
-    grid-column: auto;
-  }
 }
 
 @media (min-width: 681px) and (max-height: 760px) {

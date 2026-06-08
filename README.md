@@ -9,8 +9,10 @@ Staten Island local SEO, and demo concepts for local businesses.
 - Added Roy K. Danischewski, CPA to Demo Work.
 - Added Ban-A-Bug Pest Control to Demo Work.
 - Added Clove Lake Dental to Demo Work.
+- Added Fusion Kitchen to Demo Work.
+- Normalized Demo Work card styling so all portfolio items share the same card color treatment.
 - Emphasized Staten Island local businesses throughout the homepage, services, demo work, process, pricing, about, contact, footer, and SEO metadata.
-- Updated the portfolio grid to support multiple featured Staten Island demo projects.
+- Updated the portfolio grid to support multiple Staten Island demo projects with consistent card styling.
 
 ## Preview locally
 
