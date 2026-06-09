@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header class="site-header" data-scrolled="false">
       <a class="brand" href="#top" aria-label="Michael Smith Sites home">
         <img
@@ -46,21 +47,36 @@
         />
         <span>Michael Smith Sites</span>
       </a>
-      <nav class="nav-links" aria-label="Primary navigation">
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Open navigation menu</span>
+      </button>
+      <nav class="nav-links" id="primary-navigation" aria-label="Primary navigation">
         <a href="#services">Services</a>
         <a href="#work">Demo Work</a>
+        <a href="#process">Process</a>
         <a href="#pricing">Pricing</a>
+        <a href="#about">About Me</a>
         <a href="#contact">Contact</a>
       </nav>
       <a class="header-cta" href="#contact">Get a Quote</a>
     </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
         <img
           class="hero-image"
           src="assets/hero-local-websites.png"
           alt="Modern website layouts displayed on a laptop and phone in a clean workspace"
+          width="1800"
+          height="874"
         />
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -161,117 +177,45 @@
         <div class="section-inner split-heading">
           <div>
             <p class="eyebrow">Demo work</p>
-            <h2 id="work-title">Demo work that shows the level of polish you can expect.</h2>
+            <h2 id="work-title">Fictional demo websites for common local business needs.</h2>
           </div>
           <p>
-            Demo websites are concept projects unless officially approved by the business. They show
-            visual direction, mobile layout quality, local SEO structure, and the kind of customer
-            experience I can build for local businesses.
+            These are fictional demo websites built to show what a modern local business site could
+            look like. Each one is designed around common needs like mobile contact buttons, menus,
+            services, photos, hours, directions, and quote requests.
           </p>
         </div>
         <div class="section-inner portfolio-grid">
           <article class="project-card">
-            <p class="project-type">Auto repair demo</p>
-            <h3>Ten Point Auto Repair Demo</h3>
+            <p class="project-type">Pizzeria demo</p>
+            <h3>Main Street Pizza Co.</h3>
             <p>
-              A polished New Dorp auto repair concept built around Staten Island auto repair searches,
-              ASE-certified mechanics, New York State inspections, fleet support, hours, directions,
-              Instagram, Facebook, and a clear service request flow.
+              Restaurant demo focused on menu visibility, mobile call buttons, catering inquiries,
+              hours, and a warm neighborhood food-shop feel.
             </p>
-            <a class="text-link" href="https://tenpointauto.michaelsmithsites.com" target="_blank" rel="noopener">
+            <a class="text-link" href="demos/main-street-pizza/">
               View demo site
             </a>
           </article>
           <article class="project-card">
-            <p class="project-type">Garden center demo</p>
-            <h3>Umberto Garden Center Demo</h3>
+            <p class="project-type">Auto body demo</p>
+            <h3>Cornerstone Auto Body</h3>
             <p>
-              A polished garden center concept with a warm visual direction, practical
-              service sections, local contact details, directions, and mobile-friendly presentation.
+              Auto body demo built around services, estimate requests, work examples, business
+              hours, and quick contact from a phone.
             </p>
-            <a class="text-link" href="https://umberto.michaelsmithsites.com" target="_blank" rel="noopener">
-              View demo site
-            </a>
-          </article>
-          <article class="project-card">
-            <p class="project-type">CPA firm demo</p>
-            <h3>Roy K. Danischewski, CPA Demo</h3>
-            <p>
-              A professional Staten Island CPA website concept with tax preparation, accounting
-              service cards, tax-season help, consultation requests, office directions, phone, and
-              email contact in a clean firm-style layout.
-            </p>
-            <a class="text-link" href="https://rkdcpa.michaelsmithsites.com" target="_blank" rel="noopener">
-              View demo site
-            </a>
-          </article>
-          <article class="project-card">
-            <p class="project-type">Pest control demo</p>
-            <h3>Ban-A-Bug Pest Control Demo</h3>
-            <p>
-              A polished Staten Island pest control concept for NY and NJ customers, with service
-              categories, service-area calls, FAQ, hours, directions, and a clear estimate request flow.
-            </p>
-            <a class="text-link" href="https://banabug.michaelsmithsites.com" target="_blank" rel="noopener">
-              View demo site
-            </a>
-          </article>
-          <article class="project-card">
-            <p class="project-type">Dental office demo</p>
-            <h3>Clove Lake Dental Demo</h3>
-            <p>
-              A modern Staten Island dental office concept with general dentistry services,
-              insurance guidance, appointment request forms, directions, FAQ, and mobile-first
-              call actions for local patients.
-            </p>
-            <a class="text-link" href="https://clovelakedental.michaelsmithsites.com" target="_blank" rel="noopener">
-              View demo site
-            </a>
-          </article>
-          <article class="project-card">
-            <p class="project-type">Restaurant demo</p>
-            <h3>Ariana's Cucina Demo</h3>
-            <p>
-              A polished restaurant website concept with menu highlights, catering and private
-              event paths, mobile ordering actions, directions, contact details, and a stronger
-              local first impression.
-            </p>
-            <a class="text-link" href="https://arianascucina.michaelsmithsites.com" target="_blank" rel="noopener">
-              View demo site
-            </a>
-          </article>
-          <article class="project-card">
-            <p class="project-type">Restaurant demo</p>
-            <h3>Fusion Kitchen Demo</h3>
-            <p>
-              A polished Cantonese restaurant redesign with real retained food images, Chowbus
-              ordering CTAs, Chinese menu names, prices, gallery, directions, phone, and local SEO
-              structure for Staten Island pickup searches.
-            </p>
-            <a class="text-link" href="https://fusionkitchen.michaelsmithsites.com" target="_blank" rel="noopener">
+            <a class="text-link" href="demos/cornerstone-auto/">
               View demo site
             </a>
           </article>
           <article class="project-card">
             <p class="project-type">Contractor demo</p>
-            <h3>Clean Sweep Contracting Demo</h3>
+            <h3>Richmond Renovations</h3>
             <p>
-              A Staten Island contractor website concept with remodeling services, water mitigation,
-              reviews, hours, location details, project-gallery sections, and a clear quote request flow.
+              Contractor demo designed for service lists, project gallery space, quote requests,
+              hours, contact details, and clear next steps for homeowners.
             </p>
-            <a class="text-link" href="https://cleansweepcontracting.michaelsmithsites.com" target="_blank" rel="noopener">
-              View demo site
-            </a>
-          </article>
-          <article class="project-card">
-            <p class="project-type">Plumbing demo</p>
-            <h3>A &amp; E Mechanical Corp Demo</h3>
-            <p>
-              A polished Staten Island plumbing and mechanical services concept with a stronger
-              homepage, service cards, request-service forms, directions, phone-first CTAs, and
-              cleaner local SEO structure.
-            </p>
-            <a class="text-link" href="https://aemechanical.michaelsmithsites.com" target="_blank" rel="noopener">
+            <a class="text-link" href="demos/richmond-renovations/">
               View demo site
             </a>
           </article>
@@ -424,7 +368,7 @@
               <a href="https://michaelsmithsites.com">michaelsmithsites.com</a>
             </div>
           </div>
-          <form class="contact-form" id="quote-form">
+          <form class="contact-form" id="quote-form" novalidate>
             <label>
               <span>Name</span>
               <input name="name" type="text" autocomplete="name" required />
@@ -443,11 +387,16 @@
             </label>
             <label>
               <span>Current website <em>optional</em></span>
-              <input name="website" type="url" placeholder="https://" />
+              <input name="website" type="url" placeholder="https://example.com" />
             </label>
             <label class="full">
               <span>Message</span>
-              <textarea name="message" rows="5" required></textarea>
+              <textarea
+                name="message"
+                rows="5"
+                required
+                placeholder="Tell me what you want the website to help with."
+              ></textarea>
             </label>
             <button class="button primary full" type="submit">Send Quote Request</button>
             <p class="form-note" id="form-note" aria-live="polite">
@@ -461,7 +410,13 @@
     <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-brand">
-          <img src="assets/michael-smith-sites-logo.png" alt="Michael Smith Sites" />
+          <img
+            src="assets/michael-smith-sites-logo.png"
+            alt="Michael Smith Sites"
+            loading="lazy"
+            width="1254"
+            height="1254"
+          />
           <span>Staten Island Website Design & Local SEO</span>
         </div>
         <div class="footer-links">
@@ -470,7 +425,10 @@
           <a href="https://michaelsmithsites.com">michaelsmithsites.com</a>
         </div>
       </div>
-      <p>Demo websites are concept projects unless otherwise stated.</p>
+      <p>
+        &copy; <span id="current-year"></span> Michael Smith Sites. Demo websites are concept
+        projects unless otherwise stated.
+      </p>
     </footer>
 
     <script src="script.js"></script>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main Street Pizza Co. | Fictional Pizzeria Demo</title>
+    <meta name="description" content="A fictional pizzeria website demo with menu sections, catering, hours, contact buttons, and mobile-first layout.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="theme-pizza">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Main Street Pizza Co. home">
+        <span class="brand-mark">MS</span>
+        <span><strong>Main Street Pizza Co.</strong><small>Fictional pizzeria demo</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#menu">Menu</a>
+        <a href="#catering">Catering</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-button" href="#contact">Call Now</a>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Neighborhood pizzeria sample</p>
+          <h1>Fresh pizza, clear menu, easy ordering.</h1>
+          <p>A fictional demo for a local pizza shop that needs its menu, hours, catering, and phone number easy to find from a customer’s phone.</p>
+          <div class="actions">
+            <a class="button primary" href="#menu">View Menu</a>
+            <a class="button" href="#contact">Call (718) 555-0148</a>
+          </div>
+        </div>
+        <div class="visual-card" aria-label="Pizza shop visual sample">
+          <div class="pizza-plate"></div>
+          <div class="visual-note">
+            <strong>Open today</strong>
+            <span>11:00 AM-10:00 PM</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-info" aria-label="Business information">
+        <div><strong>Location</strong><span>42 Harbor Lane, Staten Island, NY 10301</span></div>
+        <div><strong>Phone</strong><span>(718) 555-0148</span></div>
+        <div><strong>Good for</strong><span>Takeout, delivery-style calls, and catering inquiries</span></div>
+      </section>
+
+      <section class="section" id="menu">
+        <div class="section-heading">
+          <p class="eyebrow">Menu</p>
+          <h2>Simple sections that help people order faster.</h2>
+          <p>Prices and items are fictional sample content. This layout is built for real menus, specials, and quick phone orders.</p>
+        </div>
+        <div class="menu-grid">
+          <article><h3>Pizza</h3><p>Cheese pie, pepperoni, grandma pie, white pie, veggie pie, and build-your-own toppings.</p><strong>From $3.00 slices</strong></article>
+          <article><h3>Heroes & Rolls</h3><p>Chicken parm, meatball parm, eggplant parm, sausage rolls, spinach rolls, and hot lunch options.</p><strong>From $8.50</strong></article>
+          <article><h3>Pasta</h3><p>Baked ziti, penne vodka, marinara, garlic and oil, chicken parmigiana, and family trays.</p><strong>Call for tray pricing</strong></article>
+          <article><h3>Appetizers</h3><p>Garlic knots, mozzarella sticks, wings, fries, calamari, and easy add-ons for group orders.</p><strong>From $4.00</strong></article>
+        </div>
+      </section>
+
+      <section class="section split" id="catering">
+        <div>
+          <p class="eyebrow">Catering</p>
+          <h2>Built for school events, office lunches, and pizza parties.</h2>
+          <p>The page gives visitors a clear path to ask about trays, large pie orders, drinks, salads, and pickup times without hunting through the site.</p>
+        </div>
+        <form class="form-card">
+          <label>Name<input type="text" required></label>
+          <label>Phone<input type="tel" required></label>
+          <label>Event date<input type="date"></label>
+          <label>Message<textarea rows="4" placeholder="Tell us how many people you are feeding."></textarea></label>
+          <button class="button primary" type="button">Demo Form Button</button>
+        </form>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Food-forward blocks without using a real shop’s photos.</h2>
+        </div>
+        <div class="gallery-grid" aria-label="Fictional pizzeria image placeholders">
+          <div>Fresh pies</div><div>Hot slices</div><div>Pasta trays</div><div>Family meals</div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Ready for calls, directions, and menu questions.</h2>
+          <p>42 Harbor Lane, Staten Island, NY 10301</p>
+          <p><a href="#contact">(718) 555-0148</a> · <a href="#contact">hello@exampledemo.com</a></p>
+        </div>
+        <div class="hours">
+          <h3>Hours</h3>
+          <p>Monday-Thursday: 11:00 AM-10:00 PM</p>
+          <p>Friday-Sunday: 11:00 AM-11:00 PM</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Demo website created by Michael Smith Sites. This is a fictional sample business used to show layout and design options.</p>
+    </footer>
+  </body>
+</html>

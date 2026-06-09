@@ -5,14 +5,15 @@ Staten Island local SEO, and demo concepts for local businesses.
 
 ## Recent update
 
-- Added Ten Point Auto Repair to Demo Work.
-- Added Roy K. Danischewski, CPA to Demo Work.
-- Added Ban-A-Bug Pest Control to Demo Work.
-- Added Clove Lake Dental to Demo Work.
-- Added Fusion Kitchen to Demo Work.
+- Replaced the public Demo Work section with three fictional sample websites.
+- Added `Main Street Pizza Co.`, `Cornerstone Auto Body`, and `Richmond Renovations` as generic demos.
+- Removed public links to real-business demo names from the portfolio section.
+- Removed real logos, real menu scans, real business contact details, and real social links from the generic demo copies.
+- Added a deployment checklist for diagnosing the live domain 502 error.
+- Improved mobile navigation, keyboard focus states, form validation feedback, and footer year handling.
 - Normalized Demo Work card styling so all portfolio items share the same card color treatment.
 - Emphasized Staten Island local businesses throughout the homepage, services, demo work, process, pricing, about, contact, footer, and SEO metadata.
-- Updated the portfolio grid to support multiple Staten Island demo projects with consistent card styling.
+- Updated the portfolio grid to show only three polished fictional demo projects.
 
 ## Preview locally
 

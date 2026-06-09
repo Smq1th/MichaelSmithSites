@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cornerstone Auto Body | Fictional Auto Shop Demo</title>
+    <meta name="description" content="A fictional auto body and repair website demo with service cards, estimate requests, hours, gallery blocks, and mobile contact buttons.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="theme-auto">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Cornerstone Auto Body home">
+        <span class="brand-mark">CA</span>
+        <span><strong>Cornerstone Auto Body</strong><small>Fictional auto shop demo</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#estimate">Estimate</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-button" href="#estimate">Get Estimate</a>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Auto body sample</p>
+          <h1>Repair services, estimates, and contact buttons up front.</h1>
+          <p>A fictional demo for an auto shop that needs to turn mobile visitors into estimate requests, service calls, and direction clicks.</p>
+          <div class="actions">
+            <a class="button primary" href="#estimate">Request Estimate</a>
+            <a class="button" href="#services">View Services</a>
+          </div>
+        </div>
+        <div class="visual-card" aria-label="Auto shop visual sample">
+          <div class="auto-badge">ASE</div>
+          <div class="visual-note"><strong>Same-week estimates</strong><span>Fictional demo content</span></div>
+        </div>
+      </section>
+
+      <section class="quick-info">
+        <div><strong>Location</strong><span>88 Midland Avenue, Staten Island, NY 10306</span></div>
+        <div><strong>Phone</strong><span>(718) 555-0196</span></div>
+        <div><strong>Hours</strong><span>Mon-Fri 8 AM-6 PM · Sat 9 AM-2 PM</span></div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>A service layout built for quick decisions.</h2>
+          <p>Customers can scan the main work types, then call or send a short estimate request.</p>
+        </div>
+        <div class="menu-grid">
+          <article><h3>Collision Repair</h3><p>Fictional repair copy for dents, panels, bumpers, and minor accident damage.</p></article>
+          <article><h3>Paint & Refinishing</h3><p>Clear language for color matching, refinishing, touch-ups, and exterior repair work.</p></article>
+          <article><h3>Diagnostics</h3><p>A simple place to explain warning lights, inspections, and general repair checks.</p></article>
+          <article><h3>Insurance Help</h3><p>Copy that explains how the shop can help customers understand the repair process.</p></article>
+        </div>
+      </section>
+
+      <section class="section split" id="estimate">
+        <div>
+          <p class="eyebrow">Estimate request</p>
+          <h2>Short form, clear next step.</h2>
+          <p>The form is intentionally simple so a customer can send the basics from a phone before calling or visiting.</p>
+        </div>
+        <form class="form-card">
+          <label>Name<input type="text" required></label>
+          <label>Phone<input type="tel" required></label>
+          <label>Vehicle<input type="text" placeholder="Year, make, model"></label>
+          <label>Message<textarea rows="4" placeholder="Briefly describe the repair."></textarea></label>
+          <button class="button primary" type="button">Demo Form Button</button>
+        </form>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Work examples</p>
+          <h2>Gallery blocks for before-and-after photos.</h2>
+        </div>
+        <div class="gallery-grid"><div>Bumper work</div><div>Paint finish</div><div>Panel repair</div><div>Detail bay</div></div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Make calls and directions easy.</h2>
+          <p>88 Midland Avenue, Staten Island, NY 10306</p>
+          <p><a href="#contact">(718) 555-0196</a> · <a href="#contact">hello@exampledemo.com</a></p>
+        </div>
+        <div class="hours"><h3>Hours</h3><p>Monday-Friday: 8:00 AM-6:00 PM</p><p>Saturday: 9:00 AM-2:00 PM</p><p>Sunday: Closed</p></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Demo website created by Michael Smith Sites. This is a fictional sample business used to show layout and design options.</p>
+    </footer>
+  </body>
+</html>
